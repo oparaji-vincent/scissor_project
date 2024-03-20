@@ -1,0 +1,40 @@
+.with-stroke {
+  position: relative;
+  height: 100%;
+}
+
+.with-stroke::after {
+  position: absolute;
+  left: 56px;
+  top: 16px;
+  display: inline-block;
+  content: url(/assets/icons/Vector\ 3.png);
+  width: 10px;
+}
+
+.has_sidebar {
+  position: relative;
+  height: 100%;
+}
+
+.has_sidebar::after {
+  position: absolute;
+  content: '';
+  left: -15px;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: linear-gradient(180deg, #112232 0%, rgba(77, 107, 136, 0) 100%);
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+body {
+  font-size: 16px;
+}

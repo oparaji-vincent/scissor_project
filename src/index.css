@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --color-primary: #005AE2;
+  --color-primary-2: #0065FE;
+  --color-white: #FFFFFF;
+  --gradient-background: #1E3448;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background: url(/assets/images/aurora.jpg) top center no-repeat; */
+  background-color: rgb(245, 244, 243);
+  line-height: 1.5;
+  font-size: 16px;
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+
+
+a,
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+
+ul li a {
+  color: black;
+}
+
+.text-primary {
+  color: var(--color-primary-2);
+}
+
+.text-right {
+  text-align: right;
+}

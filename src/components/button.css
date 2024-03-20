@@ -1,0 +1,36 @@
+.btn {
+    border: none;
+    display: inline-block;
+    font-family: 'Gilroy-Medium', sans-serif;
+    transition: all ease-in-out 0.3;
+}
+
+.btn-primary {
+    background-color: #0065FE;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: .7rem 2rem;
+}
+.btn-primary:hover {
+    background-color: #0249b3;
+}
+
+.btn-secondary,
+.btn-secondary-outline {
+    color: #0065FE;
+    border-radius: 20px;
+    padding: .7rem;
+    background-color: transparent;
+}
+
+.btn-secondary-outline {
+    border: 1px solid #0065FE;
+}
+
+.cta_buttons {
+    margin-bottom: 3rem;
+}
+
+.cta button {
+    margin: 5px;
+}

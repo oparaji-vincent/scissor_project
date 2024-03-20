@@ -1,0 +1,103 @@
+ .card {
+    text-align: left;
+    padding: 1rem 1.8rem;
+    border: 1px solid var(--color-primary-2);
+    border-radius: 5px;
+    transition: all ease-in-out .6s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.card:first-of-type {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card:last-of-type {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card .title {
+    margin-bottom: 1rem;
+}
+
+.card .price,
+.description {
+    margin-bottom: 10px;
+}
+
+.card .price {
+    font-size: 1.5rem;
+    font-family: 'Gilroy-bold', sans-serif;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li {
+    margin-bottom: .6rem;
+    font-size: .9rem;
+}
+
+.card ul li svg {
+    color: var(--color-primary-2);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card.primary {
+    color: var(--color-white);
+    background-color: #1E3448;
+    border: none;
+    height: 400px;
+    padding-top: 4rem;
+    z-index:100;
+
+}
+
+.card.primary li svg {
+    color: var(--color-white);
+}
+
+@media screen and (max-width:700px) {
+    #pricing {
+        padding: 2rem;
+    }
+    
+   
+    
+    #pricing #pricing_cards {
+        display: block;
+    }
+    
+    #pricing #pricing_cards .card {
+        margin-bottom: 1rem;
+    }
+    
+    #pricing #pricing_cards .card:first-of-type {
+        border: 1px solid var(--color-primary-2);
+        border-radius: 5px;
+    }
+    
+    #pricing #pricing_cards .card:last-of-type {
+        border: 1px solid var(--color-primary-2);
+        border-radius: 5px;
+    }
+    
+    #pricing #pricing_cards .card .title {
+        margin-bottom: .7rem;
+    }
+    
+    #pricing #pricing_cards .card.primary {
+        height: 350px;
+        padding: 2rem;
+    }
+}

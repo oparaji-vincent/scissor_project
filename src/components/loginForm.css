@@ -1,0 +1,15 @@
+.authForm {
+    width: 32rem;
+}
+
+.authForm input {
+    color: var(--color-primary-2);
+    padding: 10px;
+    border: 2px solid var(--color-primary-2);
+    border-radius: 5px;
+    outline-color: var(--color-primary-2);
+}
+
+.authForm input::placeholder {
+    color: gray;
+}

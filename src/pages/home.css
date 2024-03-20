@@ -1,0 +1,210 @@
+:root {
+    --color-primary: #005AE2;
+    --color-primary-2: #0065FE;
+    --color-white: #FFFFFF;
+    --gradient-background: #1E3448;
+    scroll-behavior: smooth;
+}
+
+#myurls {
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9FBFD;
+}
+
+#myurls .head {
+    width: 35%;
+}
+
+#myurls .details {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#myurls .details div {
+    width: 20%
+}
+
+#whyUs {
+    padding: 4rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#whyUs .head {
+    width: 35%;
+    margin-bottom: 2rem;
+}
+
+#whyUs .details {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 810px) {
+    #whyUs {
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #whyUs .head {
+        width: 100%;
+    }
+
+    #whyUs .details {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #myurls {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    #myurls .head {
+        font-size: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    #myurls .details {
+        display: flex;
+        width: 100%;
+        padding-top: 1.5rem;
+        justify-content: center;
+        font-size: .8rem;
+
+    }
+
+
+    #whyUs {
+        padding: 1rem;
+    }
+
+    #whyUs .details {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+}
+
+#pricing {
+    text-align: center;
+}
+
+#pricing h2 {
+    margin-bottom: .7rem;
+}
+
+#pricing #pricing_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cta_buttons button {
+    margin: 5px;
+}
+
+#formsection {
+    background-color: var(--gradient-background);
+    background-image: url("../assets/bg/Group 2.png"), url("../assets/bg/Group 3.png");
+    background-position: right bottom, left top;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    padding: 6rem 0;
+}
+
+
+@media screen and (max-width:700px) {
+    #formsection form {
+        width: 80%;
+    }
+}
+
+#faq {
+    background-image: url(/assets/bg/Group\ 4.png), url(/assets/bg/Group\ 5.png);
+    background-position: right bottom, left top;
+    background-size: 300px, 250px;
+    background-repeat: no-repeat, no-repeat;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#faq h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#faq ul {
+    margin: auto;
+    width: 60%;
+    list-style-type: none;
+}
+
+#faq ul li {
+    padding: 1rem .5rem;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+#faq ul li svg {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    font-size: 1.3rem;
+}
+
+#faq ul li:first-of-type i {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    font-size: 1.3rem;
+}
+
+#faq ul p {
+    padding-right: 3rem;
+    font-size: .97rem;
+}
+
+#cta {
+    background-color: var(--gradient-background);
+    background-image: url("../assets/bg/Group 7.png"), url("../assets/bg/Group 6.png");
+    background-blend-mode: screen;
+    background-position: right bottom, left top;
+    background-size: contain, contain;
+    background-repeat: no-repeat, no-repeat;
+    padding: 6rem 0;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+#cta h2 {
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width:700px) {
+    #faq {
+        padding: 2rem;
+        display: block;
+
+    }
+
+    #faq ul {
+        width: 90%;
+    }
+}

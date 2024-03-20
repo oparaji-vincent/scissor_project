@@ -1,0 +1,52 @@
+.form {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 29rem;
+    height: 23rem;
+    padding: 2rem;
+}
+
+.form input[type="url"] {
+    width: 100%;
+}
+
+.form input,
+.form select {
+    color: var(--color-primary-2);
+    padding: 10px;
+    border: 1px solid var(--color-primary-2);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.form input::placeholder,
+select::placeholder {
+    color: var(--color-primary-2);
+}
+
+.form input:focus,
+select:focus {
+    outline: none;
+}
+
+
+.form button {
+    width: 100%;
+}
+
+.form div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form div select,
+input {
+    width: 48%;
+}
+
+.form .terms {
+    margin-top: 1rem;
+    color: #0065FE;
+    font-size: 12px;
+}

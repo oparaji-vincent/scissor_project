@@ -1,0 +1,69 @@
+footer {
+    background-image: url("../assets/bg/Group 9.png"), url("../assets/bg/Group 8.png");
+    background-blend-mode: screen;
+    background-position: right bottom, left top;
+    background-size: 450px, contain;
+    background-repeat: no-repeat, no-repeat;
+    padding: 3rem 6rem;
+}
+
+footer li,
+footer p {
+    font-size: .89rem;
+}
+
+
+
+
+/* @media screen and (max-width: 810px) {
+    footer {
+        padding: 2rem;
+    }
+
+    footer .footer_data div {
+        width: 69%;
+    }
+
+    footer .footer_data div .body div {
+        width: 22%;
+    }
+} */
+
+@media screen and (max-width: 720px) {
+    footer {
+        background-size: 250px, 0;
+        padding: 0
+    }
+
+    footer .footer_data {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .footer_data>div:nth-child(1) {
+        width: 45%;
+        margin-top: 1rem;
+    }
+
+    footer .footer_data>div:nth-child(1) img,
+    footer .footer_data>div:nth-child(1) li {
+        margin: auto;
+    }
+
+    footer .footer_data>div:nth-child(2) {
+        width: 90%;
+        margin-top: 1rem;
+        align-items: center;
+    }
+
+    footer .footer_data>div:nth-child(2)>div {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    footer .footer_data>div:nth-child(2)>div>div {
+        width: 45%;
+    }
+}

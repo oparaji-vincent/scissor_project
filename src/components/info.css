@@ -1,0 +1,24 @@
+.info {
+    width: 40%;
+    margin: 0 1rem 3rem;
+}
+
+.info img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:1300px) {
+    .info {
+        width: 45%;
+        margin: 0 2rem 3rem 0;
+    }
+}
+@media screen and (max-width:700px) {
+    .info {
+        margin: auto;
+        margin-top: 0;
+        width: 100%;
+        margin: 1rem 0;
+    }
+}
